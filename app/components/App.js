@@ -80,6 +80,16 @@ const projectInfo=[
 	}
 ]
 
+const frontendRepros = [
+	{
+		title:"pitchfork",
+		projectLink:"https://peterhsteele.github.io/pitchfork-copycat/",
+		repoLink:"https://github.com/PeterHSteele/pitchfork-copycat",
+		image:'../../assets/p4k_copycat.png',
+		libs:['html','css']
+	}
+]
+
 const navItems=[
 	{
 		text:'projects',
@@ -87,7 +97,12 @@ const navItems=[
 	},
 	{
 		text:'about me',
-		href:'#aboutMe'}
+		href:'#aboutMe'
+	},
+	{
+		text:'frontend reproductions',
+		href:'#copycats'
+	}
 ]
 const footerItems=[
 	{
@@ -145,6 +160,30 @@ class App extends React.Component {
 			)
 		})
 
+		const copycats = frontendRepros.map(function(e,i){
+			return (
+				<li key={e.title}>
+					<Project
+					handleMouseEnter={that.handleMouseEnter}
+					handleMouseLeave={that.handleMouseLeave}
+					active={i===activeProject}
+					projectNumber={i}
+					title={e.title}
+					repoLink={e.repoLink}
+					projectLink={e.projectLink}
+					libs={e.libs}
+					image={e.image}
+					description={e.description}
+					host={e.host}/>
+				</li>
+			)
+		})
+
+		//introduction to frontend reproductions section
+
+		const copycatsOverview='Some frontend copies of various websites made with just html and css.'
+							   
+
 		//about me
 		const aboutMe=function(){
 			return (
@@ -170,6 +209,11 @@ class App extends React.Component {
 				<section id="projects">
 					<div className="contentRow"><h2>projects</h2></div>
 					<ul>{projects}</ul>
+				</section>
+				<section id="copycats">
+					<div className="contentRow"><h2>frontend reproductions</h2></div>
+					<div className="contentRow"><p>{copycatsOverview}</p></div>
+					<ul>{copycats}</ul>
 				</section>
 				<section id="aboutMe">
 					<div className="contentRow"><h2>about me</h2></div>
