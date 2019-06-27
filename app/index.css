@@ -44,6 +44,10 @@ a{
 	color:white;
 }
 
+p{
+	text-align: center
+}
+
 
 a:hover{
 	color:rgb(252,232,222);
