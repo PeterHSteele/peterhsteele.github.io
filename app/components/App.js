@@ -87,6 +87,13 @@ const frontendRepros = [
 		repoLink:"https://github.com/PeterHSteele/pitchfork-copycat",
 		image:'../../assets/p4k_copycat.png',
 		libs:['html','css']
+	},
+	{
+		title:"wells fargo",
+		projectLink:"https://peterhsteele.github.io/wells-fargo-copycat",
+		repoLink:"https://github.com/PeterHSteele/wells-fargo-copycat",
+		image:"../../assets/wells_fargo.png",
+		libs:["html","css"]
 	}
 ]
 
