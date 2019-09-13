@@ -224,7 +224,11 @@ class App extends React.Component {
 				<section id="aboutMe">
 					<div className="contentRow"><h2>about me</h2></div>
 					<div className="contentRow">{aboutMe()}</div>
-					<div className="contentRow"><a href="mailto:steele.peter.3@gmail.com">{email}</a></div>
+					<div className="contentRow">
+						<div className="email">
+							<a href="mailto:steele.peter.3@gmail.com">{email}</a>
+						</div>
+					</div>
 				</section>
 				<Footer footerLinks={footerLinks}/>
 			</div>

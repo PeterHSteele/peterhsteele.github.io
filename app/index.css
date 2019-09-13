@@ -141,6 +141,10 @@ nav a:hover{
 	margin: 0 auto 100px auto;
 }
 
+.email{
+	text-align: center;
+}
+
 
 /*footer*/
 footer li{
