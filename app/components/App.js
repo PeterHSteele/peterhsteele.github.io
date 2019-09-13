@@ -194,8 +194,7 @@ class App extends React.Component {
 		//about me
 		const aboutMe=function(){
 			return (
-				<p>full-stack web developer working in react, node.js, and mongodb. usually
-				playing basketball <span role='image' ariaLabel='basketball'>🏀</span> or off in the woods.</p>
+				<p>Full stack web developer working in wordpress, react, and other frontend technologies.</p>
 			)
 		}
 
