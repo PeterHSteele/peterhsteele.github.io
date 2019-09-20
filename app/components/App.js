@@ -7,6 +7,14 @@ import '../index.css'
 
 const projectInfo=[
 	{
+		title:'drag \'n drop form builder',
+		projectLink:"peterhsteele.github.io/DnD-form",
+		repoLink:'https://github.com/PeterHSteele/DnD-form',
+		image:'../../assets/form_builder.png',
+		libs:['react'],
+		description:''
+	},
+	{
 		title:"wordcloud builder",
 		projectLink:'https://peterhsteele.github.io/wordcloud/build/index.html',
 		repoLink:'https://github.com/PeterHSteele/wordcloud',
@@ -77,7 +85,7 @@ const projectInfo=[
 		image:'../../assets/tomato.png',
 		libs:['jquery'],
 		host:'codepen'
-	}
+	},
 ]
 
 const frontendRepros = [
@@ -194,11 +202,11 @@ class App extends React.Component {
 		//about me
 		const aboutMe=function(){
 			return (
-				<p>Full stack web developer working in wordpress, react, and other frontend technologies.</p>
+				<p>Full stack web developer working in wordpress, react, and lots more.</p>
 			)
 		}
 
-		const email = 'steele.peter.3@gmail.com'
+		const email = 'steele.peter.3@gmail.com';
 
 		//footer
 		const footerLinks=footerItems.map((e)=>{
