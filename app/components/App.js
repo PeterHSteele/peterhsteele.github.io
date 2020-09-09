@@ -8,7 +8,7 @@ import '../index.css'
 const projectInfo=[
 	{
 		title:'drag \'n drop form builder',
-		projectLink:"https://peterhsteele.github.io/DnD-form",
+		projectLink:"https://peterhsteele.github.io/DnD-form/",
 		repoLink:'https://github.com/PeterHSteele/DnD-form',
 		image:'../../assets/form_builder.png',
 		libs:['react'],
