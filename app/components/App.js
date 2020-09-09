@@ -7,11 +7,11 @@ import '../index.css'
 
 const projectInfo=[
 	{
-		title:'drag \'n drop form builder',
-		projectLink:"https://peterhsteele.github.io/DnD-form/",
-		repoLink:'https://github.com/PeterHSteele/DnD-form',
-		image:'../../assets/form_builder.png',
-		libs:['react'],
+		title:"space invaders",
+		projectLink:'https://peterhsteele.github.io/they-came-from-above/build/index.html',
+		repoLink:'https://github.com/PeterHSteele/they-came-from-above/',
+		image:'../../assets/invaders.png',
+		libs:['react','node.js','react-konva (canvas shapes)','react-spring (animations)'],
 		description:''
 	},
 	{
@@ -23,11 +23,35 @@ const projectInfo=[
 		description:''
 	},
 	{
-		title:"space invaders",
-		projectLink:'https://peterhsteele.github.io/they-came-from-above/build/index.html',
-		repoLink:'https://github.com/PeterHSteele/they-came-from-above/',
-		image:'../../assets/invaders.png',
-		libs:['react','node.js','react-konva (canvas shapes)','react-spring (animations)'],
+		title:'dungeon crawler',
+		projectLink:'https://codepen.io/psteele1128/full/vjggeK',
+		repoLink:'https://codepen.io/psteele1128/pen/vjggeK?editors=0110',
+		image:'../../assets/rogue-like.png',
+		libs:['react'],
+		host:'codepen'
+	},
+	{
+		title:'education choropleth',
+		projectLink:'https://codepen.io/psteele1128/full/qKKemX',
+		repoLink:'https://codepen.io/psteele1128/pen/qKKemX',
+		image:'../../assets/choropleth.png',
+		libs:['d3'],
+		host:'codepen'
+	},
+	{
+		title:'tomato timer',
+		projectLink:"https://codepen.io/psteele1128/full/woOrGV",
+		repoLink:'https://codepen.io/psteele1128/pen/woOrGV',
+		image:'../../assets/tomato.png',
+		libs:['jquery'],
+		host:'codepen'
+	},
+	{
+		title:'drag \'n drop form builder',
+		projectLink:"https://peterhsteele.github.io/DnD-form/",
+		repoLink:'https://github.com/PeterHSteele/DnD-form',
+		image:'../../assets/form_builder.png',
+		libs:['react'],
 		description:''
 	},
 	{
@@ -55,37 +79,13 @@ const projectInfo=[
 		host:'codepen'
 	},
 	{
-		title:'dungeon crawler',
-		projectLink:'https://codepen.io/psteele1128/full/vjggeK',
-		repoLink:'https://codepen.io/psteele1128/pen/vjggeK?editors=0110',
-		image:'../../assets/rogue-like.png',
-		libs:['react'],
-		host:'codepen'
-	},
-	{
-		title:'education choropleth',
-		projectLink:'https://codepen.io/psteele1128/full/qKKemX',
-		repoLink:'https://codepen.io/psteele1128/pen/qKKemX',
-		image:'../../assets/choropleth.png',
-		libs:['d3'],
-		host:'codepen'
-	},
-	{
 		title:'javascript calculator',
 		projectLink:'https://codepen.io/psteele1128/full/MbZxPM',
 		repoLink:'https://codepen.io/psteele1128/pen/MbZxPM',
 		image:'../../assets/calculator.png',
 		libs:['jquery'],
 		host:'codepen'
-	},
-	{
-		title:'tomato timer',
-		projectLink:"https://codepen.io/psteele1128/full/woOrGV",
-		repoLink:'https://codepen.io/psteele1128/pen/woOrGV',
-		image:'../../assets/tomato.png',
-		libs:['jquery'],
-		host:'codepen'
-	},
+	},	
 ]
 
 const frontendRepros = [
