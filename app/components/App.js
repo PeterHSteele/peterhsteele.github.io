@@ -7,6 +7,14 @@ import '../index.css'
 
 const projectInfo=[
 	{
+		title: "Satriale's Deli",
+		projectLink: "https://peterhsteele.github.io/satriales-demo-site/dist/index.html",
+		repoLink: "https://github.com/PeterHSteele/satriales-demo-site",
+		image: "../../assets/satriales-screenshot.png",
+		libs: ['pug','sass','js'],
+		description: 'a prototype site for everyone\'s favorite north jersey pork store',
+	},
+	{
 		title:"space invaders",
 		projectLink:'https://peterhsteele.github.io/they-came-from-above/build/index.html',
 		repoLink:'https://github.com/PeterHSteele/they-came-from-above/',
