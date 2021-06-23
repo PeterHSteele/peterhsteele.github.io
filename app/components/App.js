@@ -7,6 +7,14 @@ import '../index.css'
 
 const projectInfo=[
 	{
+		title: "<Video> Demo",
+		projectLink: "https://peterhsteele.github.io/video-content-demo/html/index.html",
+		repoLink: "https://github.com/PeterHSteele/video-content-demo",
+		image: "../../assets/video-content-demo.png",
+		libs: ['pug','sass','js'],
+		description: 'a showcase for the <video> element!',
+	},
+	{
 		title: "Satriale's Deli",
 		projectLink: "https://peterhsteele.github.io/satriales-demo-site/dist/index.html",
 		repoLink: "https://github.com/PeterHSteele/satriales-demo-site",
