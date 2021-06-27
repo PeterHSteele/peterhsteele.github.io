@@ -7,6 +7,14 @@ import '../index.css'
 
 const projectInfo=[
 	{
+		title: "Landing Page #1",
+		projectLink: "https://peterhsteele.github.io/video-landing-page/index.html",
+		repoLink: "https://github.com/PeterHSteele/video-landing-page",
+		image: "../../assets/video-landing-page.png",
+		libs: ['pug','sass','js'],
+		description: 'business landing page',
+	},
+	{
 		title: "<Video> Demo",
 		projectLink: "https://peterhsteele.github.io/video-content-demo/html/index.html",
 		repoLink: "https://github.com/PeterHSteele/video-content-demo",
